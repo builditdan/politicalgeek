@@ -1,4 +1,4 @@
-#Sample AWS Lambda function for Alexa
+#Sample AWS Lambda function for Alexa using PoliticalGeek example
 A simple [AWS Lambda](http://aws.amazon.com/lambda) function that demonstrates how to write a skill for the Amazon Echo using the Alexa SDK.
 
 ## Concepts
@@ -11,7 +11,7 @@ To run this example skill you need to do two things. The first is to deploy the 
 1. Go to the AWS Console and click on the Lambda link. Note: ensure you are in us-east or you won't be able to use Alexa with Lambda.
 2. Click on the Create a Lambda Function or Get Started Now button.
 3. Skip the blueprint
-4. Name the Lambda Function "Space-Geek-Example-Skill".
+4. Name the Lambda Function "Political-Geek-Example-Skill".
 5. Select the runtime as Node.js
 6. Go to the the src directory, select all files and then create a zip file, make sure the zip file does not contain the src directory itself, otherwise Lambda function will not work.
 7. Select Code entry type as "Upload a .ZIP file" and then upload the .zip file to the Lambda
@@ -25,7 +25,7 @@ To run this example skill you need to do two things. The first is to deploy the 
 
 ### Alexa Skill Setup
 1. Go to the [Alexa Console](https://developer.amazon.com/edw/home.html) and click Add a New Skill.
-2. Set "SpaceGeek" as the skill name and "space geek" as the invocation name, this is what is used to activate your skill. For example you would say: "Alexa, Ask space geek for a space fact."
+2. Set "PoliticalGeek" as the skill name and "political geek" as the invocation name, this is what is used to activate your skill. For example you would say: "Alexa, Ask political geek for a political fact."
 3. Select the Lambda ARN for the skill Endpoint and paste the ARN copied from above. Click Next.
 4. Copy the Intent Schema from the included IntentSchema.json.
 5. Copy the Sample Utterances from the included SampleUtterances.txt. Click Next.
@@ -36,5 +36,5 @@ To run this example skill you need to do two things. The first is to deploy the 
 9. Your skill is now saved and once you are finished testing you can continue to publish your skill.
 
 ## Examples
-    User: "Alexa, ask Space Geek for a space fact"
-    Alexa: "Here's your space fact: ..."
+    User: "Alexa, ask Political Geek for a political fact"
+    Alexa: "Here's your political fact. ..."
