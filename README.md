@@ -1,4 +1,4 @@
-#Sample AWS Lambda function for Alexa using PoliticalGeek example
+#Sample AWS Lambda function for Alexa using SpaceGeek example
 A simple [AWS Lambda](http://aws.amazon.com/lambda) function that demonstrates how to write a skill for the Amazon Echo using the Alexa SDK.
 
 ## Concepts
@@ -36,5 +36,5 @@ To run this example skill you need to do two things. The first is to deploy the 
 9. Your skill is now saved and once you are finished testing you can continue to publish your skill.
 
 ## Examples
-    User: "Alexa, ask Political Geek for a political fact"
-    Alexa: "Here's your political fact. ..."
+    User: "Alexa, ask Political Geek for a government fact"
+    Alexa: "Here's your government fact. ..."
